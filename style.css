@@ -1,12 +1,12 @@
-*{
-    padding:0;
-    margin:0;
+* {
+    padding: 0;
+    margin: 0;
 }
 
 /* header section Style */
 
 
-.banner-container{
+.banner-container {
     background: rgba(229, 84, 115, 0.10);
     display: flex;
     justify-content: space-between;
@@ -16,27 +16,29 @@
 }
 
 
-.banner{
-  align-items: center;
-
-}
-.header-title{
+.banner {
     align-items: center;
-    font-size:40px ;
 
 }
 
-.header-descrition{
+.header-title {
+    align-items: center;
+    font-size: 40px;
+
+}
+
+.header-descrition {
 
     color: rgba(39, 39, 39, 0.60);
     align-items: center;
     width: 300px;
-    margin-bottom: 20px  ;
+    margin-bottom: 20px;
     margin-top: 20px;
-    font-size:12px;
+    font-size: 12px;
 
 }
-.shop-button{
+
+.shop-button {
     border-radius: 5px;
     padding: 10px 10px;
     background: #E55473;
@@ -45,52 +47,55 @@
 
 }
 
-.image-section{
+.image-section {
     height: 300px;
     width: 260px;
     padding-left: 30px;
-    padding-right:150px;
+    padding-right: 150px;
     padding-top: 20px;
     padding-bottom: 17px;
-  
+
 }
 
-.flower-image{
+.flower-image {
     align-items: center;
-    padding-left: 60px 60px;
+    padding-left: 60px 100px;
 
 }
 
 
-/* middle section */ 
+/* middle section */
 
 
 
- .middle-section{
- margin-top:60px ;
+.middle-section {
+    margin-top: 60px;
 
 }
 
-.middle-title{
+.middle-title {
     margin: 10px 20px;
     text-align: center;
 
 }
-.middle-description{ 
+
+.middle-description {
     text-align: center;
     margin: 10px 40px;
     margin-bottom: 60px;
-    font-size: 8px ;
+    font-size: 8px;
 }
 
-.box-contenar{
+.box-contenar {
     display: flex;
     text-align: center;
     margin-bottom: 50px;
     justify-content: center;
     align-items: center;
-    text-decoration-line: underline;}
-.img{
+    text-decoration-line: underline;
+}
+
+.img {
     width: 150px;
     height: 200px;
     border-radius: 300px 300px 0px 0px;
@@ -98,23 +103,23 @@
     padding: 80px 60px 0px 20px;
 }
 
-.img-2{
+.img-2 {
     width: 150px;
-    height:200px;
+    height: 200px;
     border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);
     padding: 80px 60px 0px 20px;
 }
 
-.img-3{
+.img-3 {
     width: 150px;
-    height:200px;
+    height: 200px;
     border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
-    padding:  80px 60px 0px 20px;
+    padding: 80px 60px 0px 20px;
 }
 
-.box{
+.box {
     align-items: center;
     justify-content: space-between;
     margin-left: 15px;
@@ -124,45 +129,46 @@
 
 
 
-  /* hot deal section */
+/* hot deal section */
 
-  .hot-banner-container{
+.hot-banner-container {
     background: rgba(229, 84, 115, 0.10);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 50px 20px 0px 100px;
+    padding: 50px 20px 0px 120px;
 
 }
 
-.text-primary{
-    text-decoration:#E55473;
+.text-primary {
+    text-decoration: #E55473;
 
 }
 
 
-.banner{
-  align-items: center;
-  padding-right: 40px;
-.hot-deal-title
+.banner {
     align-items: center;
-    
+    padding-right: 40px;
+    align-items: center;
+
 
 }
-.hot-deal-section{
-   padding-right: 30px;
+
+.hot-deal-section {
+    padding-right: 30px 100px;
 }
 
 
-.hot-deal-descrition{
+.hot-deal-descrition {
     align-items: center;
     width: 300px;
-    margin-bottom: 20px  ;
+    margin-bottom: 20px;
     margin-top: 20px;
     font-size: 10px;
 
 }
-.sign-button{
+
+.sign-button {
     border-radius: 5px;
     padding: 10px 15px;
     background: #E55473;
@@ -171,42 +177,41 @@
 
 }
 
-.hot-deal-image{
+.hot-deal-image {
     height: 300px;
     width: 250px;
     padding-left: 60px;
-    padding-right:180px;
+    padding-right: 180px;
     padding-top: 20px;
     padding-bottom: 50px;
 }
 
-.flower-image{
+.flower-image {
     align-items: center;
 }
 
 /* insta section */
 
-.insta-section{
-    margin: 40px ;
-       
+.insta-section {
+    margin: 40px;
 
-} 
 
-.insta-title{
+}
+
+.insta-title {
     margin: 10px 20px;
     text-align: center;
 
 }
 
-.insta-description{
+.insta-description {
     text-align: center;
     margin: 10px 40px;
     margin-bottom: 60px;
-    font-size: 8px 
-
+    font-size: 8px
 }
 
-.more-picture{
+.more-picture {
     display: flex;
     text-align: center;
     justify-content: center;
@@ -214,32 +219,32 @@
     background: #FFF;
 }
 
-.more-image{
+.more-image {
     width: 150px;
     height: 200px;
 }
 
 
 
-.more-image2{
+.more-image2 {
     width: 150px;
-    height:200px;
+    height: 200px;
 }
 
 
 
-.more-image3{
+.more-image3 {
     width: 150px;
-    height:200px;
+    height: 200px;
 
 }
 
-.more-image4{
+.more-image4 {
     width: 150px;
-    height:200px;
+    height: 200px;
 }
 
-.box-image{
+.box-image {
     align-items: center;
     justify-content: space-between;
     margin-left: 8px;
@@ -248,73 +253,70 @@
 
 /* leatest deals section  */
 
-.latest-deals{
-   margin: 80px 180px ;
-   width: 700px;
-   height: 200px;
-   border-radius:3px;
-  background: url(./Rectangle\ 9.png),
-  0px -203.444px / 100% 213.755% no-repeat;
-   background-position: center;
+.latest-deals {
+    margin: 60px 200px;
+    width: 700px;
+    height: 200px;
+    background-position: center;
 
 
 }
 
-.latest-box{
+.latest-box {
     margin: 20px 30px;
     text-align: center;
-    padding: 50px;
-   
+    padding: 50px 80px;
+    background: no-repeat url("images/Rectangle\ 9.png");
+  
+
 }
 
 
-.deals-title{
-    /* margin: 0px 5px; */
+.deals-title {
+    padding-top:20px ;
+    padding-left: 20px;
+    
     color: #272727;
     text-align: center;
-    text-align: center;
-    font-size:40px;
-    font-style: normal;
-    font-weight:800;
-    line-height: normal;
+    font-size: 40px;
+    font-weight: 800;
+
+
 
 }
 
-.deals-description{
+.deals-description {
+   
     margin: 5px 15px;
-    color: rgba(39, 39, 39, 0.60);
+    color: rgba;
     text-align: center;
     font-family: Lato;
     font-size: 15px;
-    font-style: normal;
     font-weight: 400;
-    line-height: 30px;
-
+    
 }
 
 
-.email-button{
-
-    padding: 10px 80px 10px 60px;
+.email-button {
+    padding: 10px 80px 10px 80px;
     border-radius: 5px;
-   
 
 }
 
-.submit-button{
+.submit-button {
 
     padding: 12px 30px;
     background-color: #E55473;
     color: white;
     border: 0;
     border-radius: 5px;
-  
+
 
 }
 
 /* footer-sectioon */
 
-.footer{
+.footer {
     background-color: black;
     color: white;
     text-align: center;
@@ -323,29 +325,29 @@
 
 }
 
-.footer-text{
+.footer-text {
     font-size: 30px;
     font-weight: 500px;
     font-family: Lato;
-    
+
 
 }
 
-.fl-color{
+.fl-color {
     color: #E55473;
     font-family: Lato;
     font-size: 30px;
-   font-weight:500px;
+    font-weight: 500px;
 
 }
 
-.footer-desc{
+.footer-desc {
     margin: 10px;
     font-size: 8px;
 
 }
 
-.copyrights{
+.copyrights {
     font-size: 10px;
     color: #272727s;
 
