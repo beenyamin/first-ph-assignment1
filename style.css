@@ -1,0 +1,71 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+/* header section Style */
+
+
+.banner-container{
+    background: rgba(229, 84, 115, 0.10);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 20px 0px 100px;
+
+}
+
+
+.banner{
+  align-items: center;
+
+}
+.header-title{
+    align-items: center;
+
+}
+
+.header-descrition{
+    align-items: center;
+    margin-bottom: 20px  ;
+    margin-top: 20px;
+    font-size: 18px;
+
+}
+.shop-button{
+    border-radius: 5px;
+    padding: 10px 10px;
+    background: #E55473;
+    color: azure;
+    border: 0;
+
+}
+
+.image-section{
+    height: 300px;
+    width: 250px;
+
+  
+}
+
+.flower-image{
+    align-items: center;
+
+}
+
+.middle-section{
+   margin-top:40px ;
+    
+}
+
+.middle-title{
+    margin: 10px 20px;
+    text-align: center;
+}
+.middle-description{
+    text-align: center;
+    margin: 10px 20px;
+    font-size: 10px ;
+    
+
+  }    
