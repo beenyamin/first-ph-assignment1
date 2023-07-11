@@ -47,14 +47,17 @@
 
 .image-section{
     height: 300px;
-    width: 250px;
-
+    width: 260px;
+    padding-left: 30px;
+    padding-right:150px;
+    padding-top: 20px;
+    padding-bottom: 17px;
   
 }
 
 .flower-image{
     align-items: center;
-    padding-left: 60px;
+    padding-left: 60px 60px;
 
 }
 
@@ -171,10 +174,10 @@
 .hot-deal-image{
     height: 300px;
     width: 250px;
-    padding-left: 30px;
-    padding-right:150px;
+    padding-left: 60px;
+    padding-right:180px;
     padding-top: 20px;
-    padding-bottom: 40px;
+    padding-bottom: 50px;
 }
 
 .flower-image{
@@ -246,51 +249,104 @@
 /* leatest deals section  */
 
 .latest-deals{
-   align-items: center;
-   margin: 80px 150px ;
-   justify-content: center;
+   margin: 80px 180px ;
    width: 700px;
    height: 200px;
-   flex-shrink: 0;
-   border-radius: 3px;
+   border-radius:3px;
   background: url(./Rectangle\ 9.png),
-    lightgray 0px -203.444px / 100% 213.755% no-repeat;
+  0px -203.444px / 100% 213.755% no-repeat;
+   background-position: center;
+
 
 }
 
 .latest-box{
-    margin: 10px 20px;
+    margin: 20px 30px;
     text-align: center;
-    padding: 40px;
+    padding: 50px;
    
 }
 
 
 .deals-title{
+    /* margin: 0px 5px; */
+    color: #272727;
+    text-align: center;
+    text-align: center;
+    font-size:40px;
+    font-style: normal;
+    font-weight:800;
+    line-height: normal;
 
 }
 
 .deals-description{
+    margin: 5px 15px;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
 
 }
 
 
 .email-button{
-    padding: 10px 100px 10px 10px;
+
+    padding: 10px 80px 10px 60px;
     border-radius: 5px;
-    margin-bottom: 15px;
-    border: 0;
-    margin-right: 10px;
+   
 
 }
 
 .submit-button{
 
-    padding: 10px 20px;
+    padding: 12px 30px;
     background-color: #E55473;
     color: white;
     border: 0;
     border-radius: 5px;
-    margin-top: 14px;
+  
+
+}
+
+/* footer-sectioon */
+
+.footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 100px;
+    font-family: Lato;
+
+}
+
+.footer-text{
+    font-size: 30px;
+    font-weight: 500px;
+    font-family: Lato;
+    
+
+}
+
+.fl-color{
+    color: #E55473;
+    font-family: Lato;
+    font-size: 30px;
+   font-weight:500px;
+
+}
+
+.footer-desc{
+    margin: 10px;
+    font-size: 8px;
+
+}
+
+.copyrights{
+    font-size: 10px;
+    color: #272727s;
 
 }
