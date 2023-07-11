@@ -65,6 +65,7 @@
 
  .middle-section{
  margin-top:60px ;
+
 }
 
 .middle-title{
@@ -77,9 +78,50 @@
     margin: 10px 40px;
     margin-bottom: 60px;
     font-size: 8px ;
-
-
 }
+
+.box-contenar{
+    display: flex;
+    text-align: center;
+    margin-bottom: 50px;
+    justify-content: center;
+    align-items: center;
+    text-decoration-line: underline;
+    background-image: url("images/Flower\ Asset/") }
+
+.img{
+    width: 150px;
+    height: 200px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    padding: 50px 20px 0px 20px;
+}
+
+.img-2{
+    width: 150px;
+    height: 200px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    padding: 50px 20px 0px 20px;
+}
+
+.img-3{
+    width: 150px;
+    height: 200px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    padding: 50px 20px 0px 20px;
+}
+
+.box{
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 15px;
+}
+
+
+
+
 
   /* hot deal section */
 
