@@ -22,14 +22,16 @@
 }
 .header-title{
     align-items: center;
+    
 
 }
 
 .header-descrition{
     align-items: center;
+    width: 300px;
     margin-bottom: 20px  ;
     margin-top: 20px;
-    font-size: 18px;
+    font-size: 10px;
 
 }
 .shop-button{
@@ -53,6 +55,8 @@
 
 }
 
+/* middle section */
+
 .middle-section{
    margin-top:40px ;
     
@@ -65,7 +69,118 @@
 .middle-description{
     text-align: center;
     margin: 10px 20px;
-    font-size: 10px ;
+    font-size: 7px ;
     
 
-  }    
+  }   
+  
+  
+  /* Bonus point */
+
+  .Bonus-point{
+
+  }
+
+
+ .image-size{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(150, 33, 70, 0.15);
+     margin: 50px;
+     width: 150px;
+     height: 200px;
+  }
+
+
+  .header-name{
+    justify-content: center;
+    align-items: center;
+     
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* hot deal section */
+
+  .hot-banner-container{
+    background: rgba(229, 84, 115, 0.10);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 20px 0px 100px;
+
+}
+
+.text-primary{
+    text-decoration:#E55473;
+
+}
+
+
+.banner{
+  align-items: center;
+
+}
+.hot-deal-title{
+    align-items: center;
+    
+
+}
+
+.hot-deal-descrition{
+    align-items: center;
+    width: 300px;
+    margin-bottom: 20px  ;
+    margin-top: 20px;
+    font-size: 10px;
+
+}
+.sign-button{
+    border-radius: 5px;
+    padding: 10px 10px;
+    background: #E55473;
+    color: azure;
+    border: 0;
+
+}
+
+.image-section{
+    height: 300px;
+    width: 250px;
+}
+
+.flower-image{
+    align-items: center;
+}
+
+/* insta section */
+
+.insta-section{
+    margin-top:40px ;
+     
+ }
+ 
+ .insta-title{
+     margin: 10px 20px;
+     text-align: center;
+ }
+ .insta-description{
+     text-align: center;
+     margin: 10px 20px;
+     font-size: 10px ;
+ 
+ 
+   }   
