@@ -86,31 +86,29 @@
     margin-bottom: 50px;
     justify-content: center;
     align-items: center;
-    text-decoration-line: underline;
-    background-image: url("images/Flower\ Asset/") }
-
+    text-decoration-line: underline;}
 .img{
     width: 150px;
     height: 200px;
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
-    padding: 50px 20px 0px 20px;
+    padding: 80px 60px 0px 20px;
 }
 
 .img-2{
     width: 150px;
-    height: 200px;
+    height:200px;
     border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);
-    padding: 50px 20px 0px 20px;
+    padding: 80px 60px 0px 20px;
 }
 
 .img-3{
     width: 150px;
-    height: 200px;
+    height:200px;
     border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
-    padding: 50px 20px 0px 20px;
+    padding:  80px 60px 0px 20px;
 }
 
 .box{
@@ -186,20 +184,113 @@
 /* insta section */
 
 .insta-section{
-    margin-top:40px ;
-     
- }
- 
- .insta-title{
-     margin: 10px 20px;
-     text-align: center;
- }
- .insta-description{
-     text-align: center;
-     margin: 10px 20px;
-     font-size: 10px ;
-     
-   }   
+    margin: 40px ;
+       
+
+} 
+
+.insta-title{
+    margin: 10px 20px;
+    text-align: center;
+
+}
+
+.insta-description{
+    text-align: center;
+    margin: 10px 40px;
+    margin-bottom: 60px;
+    font-size: 8px 
+
+}
+
+.more-picture{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background: #FFF;
+}
+
+.more-image{
+    width: 150px;
+    height: 200px;
+}
 
 
-  
+
+.more-image2{
+    width: 150px;
+    height:200px;
+}
+
+
+
+.more-image3{
+    width: 150px;
+    height:200px;
+
+}
+
+.more-image4{
+    width: 150px;
+    height:200px;
+}
+
+.box-image{
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 8px;
+}
+
+
+/* leatest deals section  */
+
+.latest-deals{
+   align-items: center;
+   margin: 80px 150px ;
+   justify-content: center;
+   width: 700px;
+   height: 200px;
+   flex-shrink: 0;
+   border-radius: 3px;
+  background: url(./Rectangle\ 9.png),
+    lightgray 0px -203.444px / 100% 213.755% no-repeat;
+
+}
+
+.latest-box{
+    margin: 10px 20px;
+    text-align: center;
+    padding: 40px;
+   
+}
+
+
+.deals-title{
+
+}
+
+.deals-description{
+
+}
+
+
+.email-button{
+    padding: 10px 100px 10px 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    border: 0;
+    margin-right: 10px;
+
+}
+
+.submit-button{
+
+    padding: 10px 20px;
+    background-color: #E55473;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    margin-top: 14px;
+
+}
