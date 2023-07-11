@@ -22,23 +22,25 @@
 }
 .header-title{
     align-items: center;
-    
+    font-size:40px ;
 
 }
 
 .header-descrition{
+
+    color: rgba(39, 39, 39, 0.60);
     align-items: center;
     width: 300px;
     margin-bottom: 20px  ;
     margin-top: 20px;
-    font-size: 10px;
+    font-size:12px;
 
 }
 .shop-button{
     border-radius: 5px;
     padding: 10px 10px;
     background: #E55473;
-    color: azure;
+    color: #FFF;
     border: 0;
 
 }
@@ -52,66 +54,32 @@
 
 .flower-image{
     align-items: center;
+    padding-left: 60px;
 
 }
 
-/* middle section */
 
-.middle-section{
-   margin-top:40px ;
-    
+/* middle section */ 
+
+
+
+ .middle-section{
+ margin-top:60px ;
 }
 
 .middle-title{
     margin: 10px 20px;
     text-align: center;
+
 }
-.middle-description{
+.middle-description{ 
     text-align: center;
-    margin: 10px 20px;
-    font-size: 7px ;
-    
-
-  }   
-  
-  
-  /* Bonus point */
-
-  .Bonus-point{
-
-  }
+    margin: 10px 40px;
+    margin-bottom: 60px;
+    font-size: 8px ;
 
 
- .image-size{
-    border-radius: 300px 300px 0px 0px;
-    background: rgba(150, 33, 70, 0.15);
-     margin: 50px;
-     width: 150px;
-     height: 200px;
-  }
-
-
-  .header-name{
-    justify-content: center;
-    align-items: center;
-     
-  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
   /* hot deal section */
 
@@ -132,13 +100,16 @@
 
 .banner{
   align-items: center;
-
-}
-.hot-deal-title{
+  padding-right: 40px;
+.hot-deal-title
     align-items: center;
     
 
 }
+.hot-deal-section{
+   padding-right: 30px;
+}
+
 
 .hot-deal-descrition{
     align-items: center;
@@ -150,16 +121,20 @@
 }
 .sign-button{
     border-radius: 5px;
-    padding: 10px 10px;
+    padding: 10px 15px;
     background: #E55473;
-    color: azure;
+    color: #FFF;
     border: 0;
 
 }
 
-.image-section{
+.hot-deal-image{
     height: 300px;
     width: 250px;
+    padding-left: 30px;
+    padding-right:150px;
+    padding-top: 20px;
+    padding-bottom: 40px;
 }
 
 .flower-image{
@@ -181,6 +156,8 @@
      text-align: center;
      margin: 10px 20px;
      font-size: 10px ;
- 
- 
+     
    }   
+
+
+  
